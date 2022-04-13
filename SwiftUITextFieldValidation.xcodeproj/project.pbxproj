@@ -11,6 +11,17 @@
 		1F909B6C2805DCE200DF11BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F909B6B2805DCE200DF11BF /* ContentView.swift */; };
 		1F909B6E2805DCE300DF11BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F909B6D2805DCE300DF11BF /* Assets.xcassets */; };
 		1F909B712805DCE300DF11BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F909B702805DCE300DF11BF /* Preview Assets.xcassets */; };
+		1F909B792805DD4100DF11BF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F909B772805DD4100DF11BF /* Model.xcdatamodeld */; };
+		1F909B7B2805DD7400DF11BF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F909B7A2805DD7400DF11BF /* Item.swift */; };
+		1F909B7D2805DDE300DF11BF /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F909B7C2805DDE300DF11BF /* DataStore.swift */; };
+		1F909B7F2805DEF300DF11BF /* WrappedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F909B7E2805DEF300DF11BF /* WrappedTextField.swift */; };
+		1F909B812805DF8E00DF11BF /* ItemNameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F909B802805DF8E00DF11BF /* ItemNameTextField.swift */; };
+		1F909B832805E00700DF11BF /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F909B822805E00700DF11BF /* Validator.swift */; };
+		1F909B852805E0B400DF11BF /* EditingToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F909B842805E0B400DF11BF /* EditingToolbar.swift */; };
+		1F909B872805E1B100DF11BF /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F909B862805E1B100DF11BF /* ItemList.swift */; };
+		1F909B892806046700DF11BF /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F909B882806046700DF11BF /* ItemView.swift */; };
+		1F909B8C28060E2800DF11BF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1F909B8A28060E2800DF11BF /* LICENSE */; };
+		1F909B8D28060E2800DF11BF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1F909B8B28060E2800DF11BF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		1F909B6B2805DCE200DF11BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F909B6D2805DCE300DF11BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F909B702805DCE300DF11BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F909B782805DD4100DF11BF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1F909B7A2805DD7400DF11BF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1F909B7C2805DDE300DF11BF /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		1F909B7E2805DEF300DF11BF /* WrappedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappedTextField.swift; sourceTree = "<group>"; };
+		1F909B802805DF8E00DF11BF /* ItemNameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemNameTextField.swift; sourceTree = "<group>"; };
+		1F909B822805E00700DF11BF /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		1F909B842805E0B400DF11BF /* EditingToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingToolbar.swift; sourceTree = "<group>"; };
+		1F909B862805E1B100DF11BF /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		1F909B882806046700DF11BF /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		1F909B8A28060E2800DF11BF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1F909B8B28060E2800DF11BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,8 @@
 		1F909B5D2805DCE200DF11BF = {
 			isa = PBXGroup;
 			children = (
+				1F909B8A28060E2800DF11BF /* LICENSE */,
+				1F909B8B28060E2800DF11BF /* README.md */,
 				1F909B682805DCE200DF11BF /* SwiftUITextFieldValidation */,
 				1F909B672805DCE200DF11BF /* Products */,
 			);
@@ -53,6 +77,15 @@
 			children = (
 				1F909B692805DCE200DF11BF /* SwiftUITextFieldValidationApp.swift */,
 				1F909B6B2805DCE200DF11BF /* ContentView.swift */,
+				1F909B862805E1B100DF11BF /* ItemList.swift */,
+				1F909B882806046700DF11BF /* ItemView.swift */,
+				1F909B842805E0B400DF11BF /* EditingToolbar.swift */,
+				1F909B822805E00700DF11BF /* Validator.swift */,
+				1F909B7E2805DEF300DF11BF /* WrappedTextField.swift */,
+				1F909B802805DF8E00DF11BF /* ItemNameTextField.swift */,
+				1F909B772805DD4100DF11BF /* Model.xcdatamodeld */,
+				1F909B7C2805DDE300DF11BF /* DataStore.swift */,
+				1F909B7A2805DD7400DF11BF /* Item.swift */,
 				1F909B6D2805DCE300DF11BF /* Assets.xcassets */,
 				1F909B6F2805DCE300DF11BF /* Preview Content */,
 			);
@@ -125,7 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F909B8C28060E2800DF11BF /* LICENSE in Resources */,
 				1F909B712805DCE300DF11BF /* Preview Assets.xcassets in Resources */,
+				1F909B8D28060E2800DF11BF /* README.md in Resources */,
 				1F909B6E2805DCE300DF11BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F909B7B2805DD7400DF11BF /* Item.swift in Sources */,
 				1F909B6C2805DCE200DF11BF /* ContentView.swift in Sources */,
 				1F909B6A2805DCE200DF11BF /* SwiftUITextFieldValidationApp.swift in Sources */,
+				1F909B832805E00700DF11BF /* Validator.swift in Sources */,
+				1F909B7F2805DEF300DF11BF /* WrappedTextField.swift in Sources */,
+				1F909B892806046700DF11BF /* ItemView.swift in Sources */,
+				1F909B7D2805DDE300DF11BF /* DataStore.swift in Sources */,
+				1F909B872805E1B100DF11BF /* ItemList.swift in Sources */,
+				1F909B792805DD4100DF11BF /* Model.xcdatamodeld in Sources */,
+				1F909B812805DF8E00DF11BF /* ItemNameTextField.swift in Sources */,
+				1F909B852805E0B400DF11BF /* EditingToolbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +383,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F909B772805DD4100DF11BF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F909B782805DD4100DF11BF /* Model.xcdatamodel */,
+			);
+			currentVersion = 1F909B782805DD4100DF11BF /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1F909B5E2805DCE200DF11BF /* Project object */;
 }
